@@ -1,7 +1,7 @@
 .footer-container {
   width: 100vw;
-  height: 200px;
-  background-color: black;
+  height: 150px;
+  background-color: #52555a;
   display: flex;
   justify-content: center;
   border-top: solid 2px white;
@@ -9,13 +9,13 @@
 
 .footer-wrap {
   width: 1200px;
-  height: 200px;
+  height: 150px;
   display: flex;
   justify-content: space-between; }
 
 .footer-left {
   width: 600px;
-  height: 200px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -23,17 +23,17 @@
   .footer-left p {
     color: white;
     font-family: Baskerville;
-    font-size: 14pt; }
+    font-size: 12pt; }
   .footer-left a img {
     width: 250px;
     height: auto; }
 
 .footer-right {
   width: 600px;
-  height: 200px;
+  height: 150px;
   color: white;
   font-family: Baskerville;
-  font-size: 14pt;
+  font-size: 12pt;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

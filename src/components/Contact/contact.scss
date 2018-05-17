@@ -5,11 +5,87 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: black;
 }
 
 .contact-wrap {
     width: 1200px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 80px;
+    font-size: 14pt;
+    h1 {
+        color: white;
+        font-family: $font;
+        font-weight: normal;
+    }
+}
+
+.contact-aqua-logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: -10px;
+    // border: solid gold;
+}
+
+.contact-description-address {
+    color: white;
+    font-family: $font;
+    text-align: center;
+    width: 900px;
+}
+
+.contact-info {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    // border: solid gold;
+}
+
+.keith-info {
+    width: 220px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // border: solid gold;
+    p {
+        margin: 0;
+        color: white;
+        font-family: $font;
+        // border: solid red;
+    }
+}
+
+.chelsea-info {
+    width: 220px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // border: solid gold;
+    p {
+        margin: 0;
+        color: white;
+        font-family: $font;
+        // border: solid red;
+    }
+}
+
+.contact-images {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    img {
+        width: 480px;
+        height: auto;
+        border-radius: 11px;
+    }
 }
