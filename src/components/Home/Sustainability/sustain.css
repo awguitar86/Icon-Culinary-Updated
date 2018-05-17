@@ -1,0 +1,34 @@
+.sustain-container {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  background-color: black; }
+
+.sustain-wrap {
+  width: 1050px;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.grow-towers {
+  width: 450px;
+  height: auto;
+  border-radius: 7px;
+  margin-left: 0px; }
+
+.sustain {
+  width: 500px;
+  height: 785px; }
+  .sustain h1 {
+    font-family: Baskerville;
+    font-weight: normal;
+    color: white; }
+  .sustain p {
+    width: 500px;
+    height: 700px;
+    font-family: Baskerville;
+    font-size: 16pt;
+    line-height: 2;
+    color: white; }

@@ -1,0 +1,30 @@
+.gallery-wrap {
+  width: 100vw;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.gallery-container {
+  width: 1200px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .gallery-container h1 {
+    font-family: Baskerville;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 40px; }
+
+.gallery {
+  margin-top: 50px;
+  width: 1200px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 277.5px); }
+  .gallery img {
+    width: 277.5px;
+    height: auto; }

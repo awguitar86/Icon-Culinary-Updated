@@ -1,0 +1,38 @@
+.about-container {
+  width: 100vw;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; }
+
+.about {
+  width: 600px;
+  height: 785px; }
+  .about h1 {
+    font-family: Baskerville;
+    font-weight: normal;
+    color: white; }
+  .about p {
+    width: 500px;
+    height: 700px;
+    font-family: Baskerville;
+    font-size: 16pt;
+    line-height: 2;
+    color: white; }
+
+.about-img {
+  width: 450px;
+  height: auto;
+  border-radius: 7px; }
+
+.salmon {
+  width: 450px;
+  height: auto;
+  border-radius: 7px; }
+
+.about-img-two {
+  display: none; }
+
+.food-platter {
+  display: none; }

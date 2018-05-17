@@ -1,0 +1,48 @@
+@import '../../_colors.scss';
+
+.about-container {
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.about {
+    width: 600px;
+    height: 785px;
+    h1 {
+        font-family: $font;
+        font-weight: normal;
+        color: white;
+    }
+    p {
+        width: 500px;
+        height: 700px;
+        font-family: $font;
+        font-size: 16pt;
+        line-height: 2;
+        color: white;
+    }
+}
+
+.about-img {
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.salmon {
+    width: 450px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.about-img-two {
+    display: none;
+}
+
+.food-platter {
+    display: none;
+}
