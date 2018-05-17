@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import AquariumLogo from '../../../images/AquariumLogo-white.png';
-import FoodWithSharks from '../../../images/FoodWithSharksInBack.jpg';
 import IconLogo from '../../../images/IconCulinary-KnifeLogoWhite.png';
 
 import './hero.css';

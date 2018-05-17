@@ -28,7 +28,7 @@ export default class HeaderTwo extends Component {
                         <Link to='/' ><img src={icon} alt='icon culinary logo'/></Link>
                     </div>
                     <nav className="h2-nav">
-                        <Link to='/home' className="h2-home">HOME</Link>
+                        <Link to='/' className="h2-home">HOME</Link>
                         <Link to='/gallery' className="h2-home">GALLERY</Link>
                         <Link to='/contact' className="h2-contact">CONTACT</Link>
                     </nav>

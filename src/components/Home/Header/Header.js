@@ -31,7 +31,7 @@ export default class Header extends Component {
                         <Link to='/' className="icon-logo"><img src={icon} alt='icon culinary logo'/></Link>
                     </div>
                     <nav className="nav">
-                        <Link to='/home' className="home">HOME</Link>
+                        <Link to='/' className="home">HOME</Link>
                         <Link to='/gallery' className="home">GALLERY</Link>
                         <Link to='/contact' className="contact">CONTACT</Link>
                     </nav>
