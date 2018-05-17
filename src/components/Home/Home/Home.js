@@ -21,6 +21,7 @@ export default class Home extends Component {
     changeHeader(){
         if(window.pageYOffset > 80){
             this.setState({fixHeader: true});
+
         }else {
             this.setState({fixHeader: false});
         }
