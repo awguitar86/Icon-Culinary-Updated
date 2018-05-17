@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './footer.css';
-import ReefCafeLogo from '../../../images/ReefCafe-SharkLeft-White.svg';
+import ReefCafeLogo from '../../images/ReefCafe-SharkLeft-White.svg';
 
 export default class Footer extends Component {
     render () {

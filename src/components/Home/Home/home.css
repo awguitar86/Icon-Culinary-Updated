@@ -8,3 +8,6 @@
 
 .home-header-two {
   transition: ease-in-out 0.5s; }
+
+.home-header-two-false {
+  display: none; }

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './headerTwo.css';
-import icon from '../../images/IconCulinary-KnifeLogoWhite.png';
+import './homeheaderTwo.css';
+import icon from '../../../images/IconCulinary-KnifeLogoWhite.png';
 import { Link } from 'react-router-dom';
-import { getUid } from '../../utilities/uid';
+import { getUid } from '../../../utilities/uid';
 
-import hamburgerMenu from '../../images/hamburgerMenu.png';
-import HamDropdown from '../HamDropdown';
-import facebook from '../../images/FacebookLogo.svg';
-import instagram from '../../images/InstagramLogo.svg';
+import hamburgerMenu from '../../../images/hamburgerMenu.png';
+import HamDropdown from '../../HamDropdown';
+import facebook from '../../../images/FacebookLogo.svg';
+import instagram from '../../../images/InstagramLogo.svg';
 
 
 export default class HeaderTwo extends Component {
@@ -16,8 +16,9 @@ export default class HeaderTwo extends Component {
     }
 
     render () {
+        let {className, state} = this.props;
         return(
-            <div className='h2-wrap'>
+            <div className={className}>
                 <div className="h2-container">
                     <div className='h2-social'>
                         <a href='https://www.facebook.com/pages/Icon-culinary/126071754717158' target='_blank'><img src={facebook} alt='facebook logo'/></a>
