@@ -8,8 +8,11 @@ export default class Footer extends Component {
             <div className="footer-container">
                 <div className='footer-wrap'>
                     <div className="footer-left">
-                        <p>Subsidary companies of Icon Culinary include</p>
-                        <a href=''><img src={ReefCafeLogo} alt='reef cafe logo'/></a>
+                        <p>Please visit our daughter companies!</p>
+                        <div className='footer-image-wrap'>
+                            <a href=''><img src={ReefCafeLogo} alt='reef cafe logo'/></a>
+                            <a href=''><img /></a>
+                        </div>
                     </div>
 
                     <div className="footer-right">

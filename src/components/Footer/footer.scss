@@ -1,9 +1,9 @@
-@import '../../_colors.scss';
+@import '../_colors.scss';
 
 .footer-container {
     width: 100vw;
     height: 150px;
-    background-color: #52555a;
+    background-color: $red;
     display: flex;
     justify-content: center;
     border-top: solid 2px white;
@@ -28,11 +28,26 @@
     p {
         color: white;
         font-family: $font;
-        font-size: 12pt;
+        font-size: 14pt;
+        margin: 0;
+        margin-bottom: 10px;
     }
+}
+
+.footer-image-wrap {
+    width: 430px;
+    display: flex;
+    justify-content: space-between;
+    // border: solid;
     a {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         img {
-            width: 250px;
+            width: 190px;
             height: auto;
         }
     }
@@ -43,7 +58,7 @@
     height: 150px;
     color: white;
     font-family: $font;
-    font-size: 12pt;
+    font-size: 14pt;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
