@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { getUid } from '../../utilities/uid';
 
 import hamburgerMenu from '../../images/hamburgerMenu.png';
-import HamDropdown from '../HamDropdown';
+import HamDropdown from '../HamDropDown/HamDropdown';
 import facebook from '../../images/FacebookLogo.svg';
 import instagram from '../../images/InstagramLogo.svg';
 

@@ -10,28 +10,6 @@
     position: fixed;
 }
 
-.home-header-two {
-    width: 100vw;
-    height: 80px;
-    background: black;
-    margin-top: -10px;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    transition: ease-in-out 1s;
-}
-.home-header-two-false {
-    width: 100vw;
-    height: 80px;
-    background: black;
-    margin-top: -10px;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    display: none;
-    transition: ease-in-out 1s;
-}
-
 .h2-container {
     // position: fixed;
     width: 1200px;

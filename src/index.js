@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import ScrollToTop from './ScrollToTop';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router onUpdate={() => window.scrollTo(0, 0)} history={createBrowserHistory()}>
+    <ScrollToTop>
       <App />
-  </BrowserRouter>,
+    </ScrollToTop>
+  </Router>,
   document.getElementById('root'));
-registerServiceWorker();

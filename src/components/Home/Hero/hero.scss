@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid 1px white;
+    // border-top: solid 1px white;
     img {
         width: 500px;
         height: auto;
@@ -58,5 +58,59 @@
         font-size: 24pt;
         margin-top: 30px;
         letter-spacing: 2px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .hero-logo {
+        width: 93vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border-top: solid 1px white;
+        img {
+            width: 500px;
+            height: auto;
+            margin-top: 20px;
+        }
+    }
+
+    .hero-pic {
+        width: 95vw;
+        height: 600px;
+        background-image: url('../../../images/FoodWithSharksInBack.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 11px;
+        margin-top: 40px;
+    }
+
+    .hero-aquarium-wrap{
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-aquarium {
+        width: 720px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // border: solid gold;
+        img {
+            width: 280px;
+            height: auto;
+        }
+        p {
+            color: white;
+            margin: 0;
+            font-family: 'Great Vibes', cursive;
+            font-size: 24pt;
+            margin-top: 30px;
+            letter-spacing: 2px;
+        }
     }
 }

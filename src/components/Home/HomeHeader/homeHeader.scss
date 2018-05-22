@@ -1,0 +1,129 @@
+@import '../../_colors.scss';
+
+.header-wrap {
+    width: 100vw;
+    height: 80px;
+    background: black;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    // position: fixed;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px  white;
+    z-index: 1;
+    margin-top: 2px;
+    // border: solid gold;
+}
+
+.header-social {
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    // border: solid gold;
+    a {
+        width: 30px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        img {
+            width: 30px;
+            height: auto;
+        }
+    }
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: solid blue;
+}
+
+.icon-logo {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    height: 80px;
+    font-family: $font;
+    font-size: 12pt;
+    // border: solid red;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .header-container {
+        width: 93vw;
+    }
+
+    .header-social {
+        width: 100px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        // border: solid gold;
+        a {
+            width: 30px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            img {
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // border: solid blue;
+    }
+
+    .icon-logo {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 340px;
+        height: 80px;
+        font-family: $font;
+        font-size: 12pt;
+        // border: solid red;
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav {
+        display: none;
+    }
+}

@@ -43,3 +43,41 @@
         color: white;
     }
 }
+
+@media only screen and (max-width: 1250px) {
+    .sustain-wrap {
+        width: 93vw;
+        height: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // border: solid gold;
+    }
+
+    .grow-towers {
+        width: 450px;
+        height: auto;
+        border-radius: 7px;
+        margin-left: 0px;
+        // border: solid red;
+    }
+
+    .sustain {
+        width: 500px;
+        height: 785px;
+        // border: solid green;
+        h1 {
+            font-family: $font;
+            font-weight: normal;
+            color: white;
+        }
+        p {
+            width: 500px;
+            height: 700px;
+            font-family: $font;
+            font-size: 16pt;
+            line-height: 2;
+            color: white;
+        }
+    }
+}

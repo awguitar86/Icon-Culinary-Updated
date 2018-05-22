@@ -46,3 +46,44 @@
 .food-platter {
     display: none;
 }
+
+
+@media only screen and (max-width: 1250px) {
+    .about {
+        width: 50vw;
+        height: 785px;
+        h1 {
+            font-family: $font;
+            font-weight: normal;
+            color: white;
+        }
+        p {
+            width: 500px;
+            height: 700px;
+            font-family: $font;
+            font-size: 16pt;
+            line-height: 2;
+            color: white;
+        }
+    }
+
+    .about-img {
+        width: 43vw;
+        height: auto;
+        border-radius: 7px;
+    }
+
+    .salmon {
+        width: 40vw;
+        height: auto;
+        border-radius: 7px;
+    }
+
+    .about-img-two {
+        display: none;
+    }
+
+    .food-platter {
+        display: none;
+    }
+}

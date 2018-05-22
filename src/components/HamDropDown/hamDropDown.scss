@@ -1,0 +1,103 @@
+@import '../_colors.scss';
+
+.ham-wrap{
+    display: none;
+}
+
+@media only screen and (max-width: 900px){
+    .ham-wrap {
+        width: 31.6vw;
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        // border: solid red;
+    }
+
+    .hamburger-menu {
+        img {
+            width: 40px;
+            height: 40px;
+            margin-top: 5px;
+        }
+    }
+
+    .ham-dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: black;
+        width: 100vw;
+        height: 100vw;
+        // z-index: 3;
+        // border: solid gold;
+    }
+
+    .ham-header {
+        width: 93vw;
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        border-bottom: solid 1px white;
+        // border: solid gold;
+    }
+    .ham-social{
+        width: 31vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        a {
+            width: 30px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+            img {
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+    .ham-logo{
+        width: 31vw;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 120px;
+            height: auto;
+        }
+    }
+    .ham-close {
+        width: 31vw;
+        height: 80px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        font-size: 36pt;
+        font-weight: 100;
+        // border: solid gold;
+        }
+
+    .ham-menu-items {
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:active {
+            background-color: rgba(255, 255, 255, 0.132);
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 16pt;
+            font-family: $font;
+        }
+    }
+}

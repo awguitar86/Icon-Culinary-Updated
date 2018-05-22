@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './home.css';
 
-import Header from '../Header/Header';
+import HomeHeader from '../HomeHeader/HomeHeader';
 import Hero from '../Hero/Hero';
 import Welcome from '../Welcome/Welcome';
 import About from '../About/About';
@@ -40,7 +40,7 @@ export default class Home extends Component {
         return(
             <div className='home-body'>
                 <HomeHeaderTwo className={this.state.fixHeader ? 'home-header-two' : 'home-header-two-false'} state={this.state.fixHeader}/>
-                <Header />
+                <HomeHeader />
                 <Hero />
                 <Welcome />
                 <About />
