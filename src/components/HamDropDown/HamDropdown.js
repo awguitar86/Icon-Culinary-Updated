@@ -48,8 +48,8 @@ export default class HamDropdown extends Component {
                 <div className='ham-dropdown-menu' >
                     <div onClick={this.handleClick.bind(this)} className='ham-header'>
                         <div className='ham-social'>
-                            <a href=''><img src={facebook} alt='facebook logo'/></a>
-                            <a href=''><img src={instagram} alt='instagram logo'/></a>
+                            <a href='https://www.facebook.com/pages/Icon-culinary/126071754717158'><img src={facebook} alt='facebook logo'/></a>
+                            <a href='https://www.instagram.com/iconculinary/'><img src={instagram} alt='instagram logo'/></a>
                         </div>
                         <div className='ham-logo'>
                             <img src={icon} alt='icon culinary logo'/>
