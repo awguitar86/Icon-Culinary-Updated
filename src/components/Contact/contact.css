@@ -36,7 +36,6 @@
 
 .keith-info {
   width: 220px;
-  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,7 +47,6 @@
 
 .chelsea-info {
   width: 220px;
-  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,3 +67,33 @@
     width: 480px;
     height: auto;
     border-radius: 11px; }
+
+@media only screen and (max-width: 1250px) {
+  .contact-wrap {
+    width: 95vw; } }
+
+@media only screen and (max-width: 1030px) {
+  .contact-description-address {
+    width: 80vw; }
+  .contact-info {
+    width: 80vw; }
+  .contact-images {
+    width: 95vw; }
+    .contact-images img {
+      width: 46vw; } }
+
+@media only screen and (max-width: 770px) {
+  .contact-wrap h1 {
+    font-size: 22pt; } }
+
+@media only screen and (max-width: 620px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+    height: 300px; }
+  .contact-images {
+    flex-direction: column;
+    align-items: center; }
+    .contact-images img {
+      width: 80vw;
+      margin-bottom: 20px; } }
