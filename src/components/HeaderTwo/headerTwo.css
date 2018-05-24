@@ -2,7 +2,7 @@
   width: 100vw;
   height: 80px;
   background: black;
-  margin-top: -10px;
+  margin-top: -8px;
   display: flex;
   justify-content: center;
   position: fixed; }
@@ -56,3 +56,49 @@
     margin-left: 68px; }
     .h2-nav a:hover {
       color: #BE1E2D; }
+
+@media only screen and (max-width: 1250px) {
+  .h2-container {
+    width: 93vw; }
+  .h2-social {
+    width: 31vw; }
+  .h2-logo-container {
+    width: 31vw; }
+  .h2-nav {
+    width: 31vw;
+    justify-content: space-around; }
+    .h2-nav a {
+      margin-left: 0; } }
+
+@media only screen and (max-width: 900px) {
+  .h2-nav {
+    display: none; } }
+
+@media only screen and (max-width: 750px) {
+  .h2-wrap {
+    height: 60px; }
+  .h2-container {
+    height: 60px; }
+  .h2-social {
+    height: 60px; }
+    .h2-social a {
+      width: 25px; }
+      .h2-social a img {
+        width: 25px; }
+  .h2-logo-container {
+    height: 60px; }
+    .h2-logo-container a {
+      width: 90px; }
+      .h2-logo-container a img {
+        width: 90px; } }
+
+@media only screen and (max-width: 415px) {
+  .h2-social a {
+    width: 20px;
+    margin-right: 20px; }
+    .h2-social a img {
+      width: 20px; }
+  .h2-logo-container a {
+    width: 80px; }
+    .h2-logo-container a img {
+      width: 80px; } }

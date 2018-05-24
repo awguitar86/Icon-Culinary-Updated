@@ -31,6 +31,7 @@ export default class HeaderTwo extends Component {
                         <Link to='/gallery' className="h2-home">GALLERY</Link>
                         <Link to='/contact' className="h2-contact">CONTACT</Link>
                     </nav>
+                    <HamDropdown />
                 </div>
             </div>
         )
