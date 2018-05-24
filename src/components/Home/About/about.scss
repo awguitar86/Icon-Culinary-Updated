@@ -2,16 +2,25 @@
 
 .about-container {
     width: 100vw;
-    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    // border: solid gold;
+}
+
+.about-wrap {
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0px 50px 0px;
+    // border: solid silver;
 }
 
 .about {
-    width: 600px;
-    height: 785px;
+    width: 650px;
+    // border: solid gold;
     h1 {
         font-family: $font;
         font-weight: normal;
@@ -19,11 +28,11 @@
     }
     p {
         width: 500px;
-        height: 700px;
         font-family: $font;
         font-size: 16pt;
         line-height: 2;
         color: white;
+        // border: solid red;
     }
 }
 
@@ -31,6 +40,7 @@
     width: 450px;
     height: auto;
     border-radius: 7px;
+    // border: solid blue;
 }
 
 .salmon {
@@ -43,47 +53,53 @@
     display: none;
 }
 
-.food-platter {
-    display: none;
-}
 
-
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1100px) {
+    .about-wrap{
+        width: 93vw;
+    }
     .about {
         width: 50vw;
-        height: 785px;
-        h1 {
-            font-family: $font;
-            font-weight: normal;
-            color: white;
-        }
         p {
-            width: 500px;
-            height: 700px;
-            font-family: $font;
-            font-size: 16pt;
-            line-height: 2;
-            color: white;
+            width: 46vw;
         }
     }
-
     .about-img {
         width: 43vw;
-        height: auto;
-        border-radius: 7px;
     }
-
     .salmon {
-        width: 40vw;
-        height: auto;
-        border-radius: 7px;
+        width: 43vw;
     }
+}
 
+@media only screen and (max-width: 750px){
+    .about-wrap {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0px 20px 0px;
+        // border: solid blue;
+    }
+    .about {
+        width: 90vw;
+        // border: solid gold;
+        h1 {
+            font-size: 20pt;
+        }
+        p {
+            font-size: 14pt;
+            width: 90vw;
+        }
+    }
+    .about-img {
+        display: none;
+    }
     .about-img-two {
-        display: none;
-    }
-
-    .food-platter {
-        display: none;
+        display: initial;
+        width: 90vw;
+        height: auto;
+        img {
+            width: 90vw;
+            height: auto;
+        }
     }
 }

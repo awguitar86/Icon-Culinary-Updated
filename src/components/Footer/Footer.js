@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './footer.css';
 import ReefCafeLogo from '../../images/ReefCafe-SharkLeft-White.svg';
+import MeatPieLogo from '../../images/MeatPieWagon-Logo.png';
 
 export default class Footer extends Component {
     render () {
@@ -11,6 +12,7 @@ export default class Footer extends Component {
                         <p>Please visit our daughter companies!</p>
                         <div className='footer-image-wrap'>
                             <a href=''><img src={ReefCafeLogo} alt='reef cafe logo'/></a>
+                            <a href=''><img src={MeatPieLogo} alt='meat pie wagon logo' /></a>
                         </div>
                     </div>
 

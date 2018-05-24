@@ -1,21 +1,19 @@
 .footer-container {
   width: 100vw;
-  height: 150px;
   background-color: black;
   display: flex;
   justify-content: center;
-  border-top: solid 2px white;
+  border-top: solid 5px white;
   margin-bottom: -8px; }
 
 .footer-wrap {
   width: 1200px;
-  height: 150px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 30px 0px 30px 0px; }
 
 .footer-left {
   width: 600px;
-  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -44,7 +42,6 @@
 
 .footer-right {
   width: 600px;
-  height: 150px;
   color: white;
   font-family: Baskerville;
   font-size: 14pt;
@@ -55,44 +52,33 @@
 
 @media only screen and (max-width: 1250px) {
   .footer-wrap {
-    width: 93vw;
-    height: 150px;
-    display: flex;
-    justify-content: space-between; }
+    width: 93vw; } }
+
+@media only screen and (max-width: 900px) {
+  .footer-wrap {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
   .footer-left {
-    width: 600px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center; }
-    .footer-left p {
-      color: white;
-      font-family: Baskerville;
-      font-size: 14pt;
-      margin: 0;
-      margin-bottom: 10px; }
-  .footer-image-wrap {
-    width: 430px;
-    display: flex;
-    justify-content: space-between; }
-    .footer-image-wrap a {
-      background: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-      border-radius: 11px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .footer-image-wrap a img {
-        width: 190px;
-        height: auto; }
+    align-items: center;
+    margin: 20px 0px 30px 0px; }
   .footer-right {
-    width: 600px;
-    height: 150px;
-    color: white;
-    font-family: Baskerville;
-    font-size: 14pt;
-    display: flex;
+    align-items: center; }
+    .footer-right p {
+      margin: 0;
+      margin-bottom: 10px; } }
+
+@media only screen and (max-width: 605px) {
+  .footer-left {
+    width: 90vw; }
+  .footer-image-wrap {
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: center; } }
+    width: 230px; }
+  .footer-right {
+    width: 90vw; }
+    .footer-right p {
+      font-size: 12pt; } }
+
+@media only screen and (max-width: 400px) {
+  .footer-right p {
+    font-size: 9pt; } }

@@ -1,39 +1,37 @@
 .welcome-wrap {
   width: 100vw;
-  height: 600px;
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   align-items: center;
   background-color: black; }
 
 .welcome-container {
   width: 1200px;
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: solid 1px white;
   border-bottom: solid 1px white;
-  padding: 20px 0 20px 0; }
+  padding: 30px 0 30px 0; }
 
 .welcome {
   width: 510px;
-  height: 60px;
   display: flex;
   justify-content: center;
   font-family: Baskerville; }
   .welcome h1 {
     font-weight: normal;
     color: white;
-    margin: 10px 0px 10px 0px; }
+    margin: 10px 0px 20px 0px; }
+  .welcome h2 {
+    display: none; }
 
 .images {
   width: 1050px;
-  height: 134px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px; }
   .images img {
     width: 200px;
     height: auto;
@@ -41,30 +39,61 @@
 
 .welcome-para {
   width: 1050px;
-  height: 220px;
   font-family: Baskerville;
   font-size: 16pt;
   line-height: 2;
   color: white; }
+  .welcome-para p {
+    margin: 0; }
 
 @media only screen and (max-width: 1250px) {
   .welcome-container {
     width: 93vw; }
   .images {
-    width: 85vw;
-    height: 134px;
-    display: flex;
-    justify-content: space-between; }
-    .images img {
-      width: 200px;
-      height: auto;
-      border-radius: 11px; }
+    width: 85vw; }
   .steak {
     display: none; }
   .welcome-para {
-    width: 85vw;
-    height: 220px;
-    font-family: Baskerville;
-    font-size: 16pt;
-    line-height: 2;
-    color: white; } }
+    width: 85vw; } }
+
+@media only screen and (max-width: 970px) {
+  .pizza {
+    display: none; } }
+
+@media only screen and (max-width: 750px) {
+  .welcome h1 {
+    font-size: 22pt; }
+  .images {
+    width: 420px; }
+  .burger {
+    display: none; }
+  .welcome-para p {
+    font-size: 14pt; } }
+
+@media only screen and (max-width: 560px) {
+  .welcome-container {
+    justify-content: space-between; }
+  .welcome {
+    width: 90vw; }
+    .welcome h1 {
+      font-size: 18pt; }
+  .images {
+    width: 70vw; }
+  .food img {
+    width: 70vw;
+    height: auto; }
+  .strawberries {
+    display: none; }
+  .welcome-para p {
+    font-size: 14pt;
+    margin: 0; } }
+
+@media only screen and (max-width: 415px) {
+  .welcome h1 {
+    display: none; }
+  .welcome h2 {
+    display: initial;
+    color: white;
+    font-size: 18pt;
+    font-weight: normal;
+    text-align: center; } }

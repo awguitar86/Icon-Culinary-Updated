@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './sustain.css';
 import GrowTowers from '../../../images/growTowers.jpg';
+import growTowerGreens from '../../../images/growTowerGreens.jpg';
 
 export default class Sustain extends Component {
     render () {
@@ -17,6 +18,9 @@ export default class Sustain extends Component {
                             with the most flavorful organic greens you’ve ever tasted. We are able to offer a menu that is guarenteed
                             to wow every mouth that we cater to while being ecologically responisble.
                         </p>
+                    </div>
+                    <div className='grow-tower-greens'>
+                        <img src={growTowerGreens} alt='leafs from grow tower'/>
                     </div>
                 </div>
             </div>

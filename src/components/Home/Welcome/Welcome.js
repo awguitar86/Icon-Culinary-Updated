@@ -13,6 +13,7 @@ export default class Welcome extends Component {
                 <div className='welcome-container'>
                     <div className="welcome">
                         <h1>WELCOME TO ICON CULINARY!</h1>
+                        <h2>WELCOME TO<br/>ICON CULINARY!</h2>
                     </div>
 
                     <div className="images">
