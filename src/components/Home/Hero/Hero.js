@@ -9,7 +9,6 @@ export default class Hero extends Component {
         return(
             <div className='hero-wrap'>
                 <div className='hero-logo'><img src={IconLogo} alt='icon culinary logo'/></div>
-                <div className='hero-pic'></div>
                 <div className='hero-aquarium-wrap'>
                     <div className='hero-aquarium'>
                         <img src={AquariumLogo} alt='aquarium logo'/>
