@@ -32,10 +32,10 @@ class Contact extends Component {
                             <p>keith@iconculinary.com</p>
                         </div>
                         <div className='chelsea-info'>
-                            <p>Chelsea</p>
-                            <p>Event Coordinator</p>
-                            <p>Office: (801) 444-4444 x444</p>
-                            <p>Mobile: (801) 444-4444</p>
+                            <p>Chelsea Mumford</p>
+                            <p>Event Designer</p>
+                            <p>Office: (801) 355-3474 x450</p>
+                            <p>Mobile: (801) 448-9548</p>
                             <p>chelsea@iconculinary.com</p>
                         </div>
                     </div>
