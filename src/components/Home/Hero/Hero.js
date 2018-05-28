@@ -11,8 +11,8 @@ export default class Hero extends Component {
                 <div className='hero-logo'><img src={IconLogo} alt='icon culinary logo'/></div>
                 <div className='hero-aquarium-wrap'>
                     <div className='hero-aquarium'>
+                        <p>EXCLUSIVE CATERING AND EVENT PARTNER</p>
                         <img src={AquariumLogo} alt='aquarium logo'/>
-                        <p>Exclusive catering and event partner</p>
                     </div>
                 </div>
             </div>

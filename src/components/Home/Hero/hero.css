@@ -9,7 +9,8 @@
   width: 1200px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 90px; }
   .hero-logo img {
     width: 500px;
     height: auto;
@@ -23,7 +24,7 @@
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 11px;
-  margin-top: 40px; }
+  margin-top: 50px; }
 
 .hero-aquarium-wrap {
   width: 1200px;
@@ -32,20 +33,22 @@
   justify-content: center; }
 
 .hero-aquarium {
-  width: 720px;
-  height: 150px;
+  width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 100px; }
   .hero-aquarium img {
-    width: 280px;
+    width: 400px;
     height: auto; }
   .hero-aquarium p {
     color: white;
     margin: 0;
-    font-family: 'Great Vibes', cursive;
-    font-size: 24pt;
-    margin-top: 30px;
+    font-family: Baskerville;
+    font-weight: normal;
+    font-size: 30pt;
+    margin-bottom: 40px;
     letter-spacing: 2px; }
 
 @media only screen and (max-width: 1250px) {

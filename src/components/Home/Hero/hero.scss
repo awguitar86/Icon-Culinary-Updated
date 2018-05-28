@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
     // border-top: solid 1px white;
     img {
         width: 500px;
@@ -30,7 +31,7 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 11px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .hero-aquarium-wrap{
@@ -41,22 +42,24 @@
 }
 
 .hero-aquarium {
-    width: 720px;
-    height: 150px;
+    width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 100px;
     // border: solid gold;
     img {
-        width: 280px;
+        width: 400px;
         height: auto;
     }
     p {
         color: white;
         margin: 0;
-        font-family: 'Great Vibes', cursive;
-        font-size: 24pt;
-        margin-top: 30px;
+        font-family: $font;
+        font-weight: normal;
+        font-size: 30pt;
+        margin-bottom: 40px;
         letter-spacing: 2px;
     }
 }

@@ -13,13 +13,14 @@
     width: 1050px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
     margin: 50px 0px 50px 0px;
     // border: solid silver;
 }
 
 .about {
-    width: 650px;
+    width: 1050px;
     // border: solid gold;
     h1 {
         font-family: $font;
@@ -27,7 +28,7 @@
         color: white;
     }
     p {
-        width: 500px;
+        width: 1050px;
         font-family: $font;
         font-size: 16pt;
         line-height: 2;
@@ -37,9 +38,15 @@
 }
 
 .about-img {
-    width: 450px;
+    width: 900px;
     height: auto;
     border-radius: 7px;
+    margin-bottom: 80px;
+    img {
+        width: 900px;
+        height: auto;
+        border-radius: 10px;
+    }
     // border: solid blue;
 }
 
@@ -51,6 +58,11 @@
 
 .about-img-two {
     display: none;
+}
+
+.bottom-border {
+    width: 1200px;
+    border-bottom: solid 1px white;
 }
 
 
