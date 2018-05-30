@@ -1,9 +1,8 @@
 .footer-container {
   width: 100vw;
-  background-color: black;
+  background-color: #181818;
   display: flex;
   justify-content: center;
-  border-top: solid 5px white;
   margin-bottom: -8px; }
 
 .footer-wrap {
@@ -30,7 +29,6 @@
   display: flex;
   justify-content: space-between; }
   .footer-image-wrap a {
-    background: rgba(0, 0, 0, 0.7);
     padding: 10px;
     border-radius: 11px;
     display: flex;

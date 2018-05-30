@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './about.css';
 import salmon from '../../../images/salmon.jpg';
 import steak from '../../../images/steak-slices.jpg';
-import FoodWithSharks from '../../../images/FoodWithSharksInBack.jpg';
+import FoodWithSharks from '../../../images/FoodWithSharks.jpg';
 
 export default class About extends Component {
     render () {
@@ -22,10 +22,6 @@ export default class About extends Component {
 
                     <div className="about-img">
                         <img src={FoodWithSharks} alt="food with sharks"/>
-                    </div>
-
-                    <div className="about-img-two">
-                        <img src={steak} alt="Food Platter" className="food-platter"/>
                     </div>
                     <div className='bottom-border'></div>
                 </div>

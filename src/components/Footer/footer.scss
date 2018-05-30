@@ -2,10 +2,10 @@
 
 .footer-container {
     width: 100vw;
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     display: flex;
     justify-content: center;
-    border-top: solid 5px white;
+    // border-top: solid 1px white;
     margin-bottom: -8px;
 }
 
@@ -38,7 +38,6 @@
     justify-content: space-between;
     // border: solid silver;
     a {
-        background: rgba(0, 0, 0, 0.7);
         padding: 10px;
         border-radius: 11px;
         display: flex;

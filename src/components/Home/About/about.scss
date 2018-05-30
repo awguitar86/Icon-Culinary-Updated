@@ -50,19 +50,15 @@
     // border: solid blue;
 }
 
-.salmon {
-    width: 450px;
-    height: auto;
-    border-radius: 7px;
-}
-
-.about-img-two {
-    display: none;
-}
-
 .bottom-border {
     width: 1200px;
     border-bottom: solid 1px white;
+}
+
+@media only screen and (max-width: 1250px){
+    .bottom-border {
+        width: 93vw;
+    }
 }
 
 
@@ -71,16 +67,16 @@
         width: 93vw;
     }
     .about {
-        width: 50vw;
+        width: 90vw;
         p {
-            width: 46vw;
+            width: 90vw;
         }
     }
     .about-img {
-        width: 43vw;
-    }
-    .salmon {
-        width: 43vw;
+        width: 90vw;
+        img {
+            width: 90vw;
+        }
     }
 }
 
@@ -100,18 +96,6 @@
         p {
             font-size: 14pt;
             width: 90vw;
-        }
-    }
-    .about-img {
-        display: none;
-    }
-    .about-img-two {
-        display: initial;
-        width: 90vw;
-        height: auto;
-        img {
-            width: 90vw;
-            height: auto;
         }
     }
 }
