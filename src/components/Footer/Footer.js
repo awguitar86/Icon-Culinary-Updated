@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <div className="footer-container">
                 <div className='footer-wrap'>
                     <div className="footer-left">
-                        <p>Please visit our daughter companies!</p>
+                        <p>Please visit our daughter company!</p>
                         <div className='footer-image-wrap'>
                             <a href=''><img src={ReefCafeLogo} alt='reef cafe logo'/></a>
                         </div>
